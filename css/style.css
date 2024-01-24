@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+html {
+	font-family: 'Bangers';
+}
+
+.main-page {
+	height: 100vh;
+	width: 100vw;
+	background: var(--color-primary);
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.headline {
+	font-weight: 400;
+	font-size: var(--font-size-large);
+	color: var(--color-secondary);
+	flex-basis: 15%;
+}
+
+.info {
+	font-weight: 400;
+	font-size: var(--font-size-medium);
+	color: var(--color-secondary);
+	flex-basis: 15%;
+}
+
+.input-container{
+	flex-basis: 50%;
+}	
+
+.task-input {
+	width: 46.875rem;
+	height: 3rem;
+}
+
+.button-container {
+	flex-basis: 20%;
+}
+
+.ready-button {
+	height: 5rem;
+	width: 10rem;
+	background: var(--color-accent-1);
+	font-size: var(--font-size-tiny-plus);
+	color: var(--color-accent-2);
+	border: var(--border-ready-button-normal);
+	border-radius: var(--border-radius-normal);
+}
+
+.ready-button:hover {
+	border: var(--border-ready-button-accent);
+	background: var(--color-hover-accent-1);
+}
+
+.ready-button:active {
+	border: var(--border-ready-button-accent);
+	background: var(--color-active-accent-1);
+}
+
+.task {
+	color: var(--color-secondary);
+	font-size: var(--font-size-small);
+}
+
+/* MONSTER PAGE STYLING */ 
+.monster-page {
+	height: 100vh;
+	width: 100vw;
+	background: grey;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.monster-headline {
+	font-weight: 400;
+	font-size: var(--font-size-large);
+	color: var(--color-primary);
+	margin-bottom: var(--spacing-x-large);
+}
+
+.monster {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.monster-container {
+	display: flex;
+	flex-flow: row wrap;
+}
